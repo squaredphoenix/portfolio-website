@@ -55,6 +55,23 @@ body, .container
   border: none;
 }
 
+.jobTitle
+{
+    font-size: 22px;
+    color: white !important;
+}
+
+.jobDate
+{
+    font-size: 13;
+    color: white !important;
+}
+
+.jobList
+{
+    margin-top: 10px;
+}
+
 .wrapper 
 {
     display: grid;
