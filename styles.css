@@ -36,8 +36,8 @@ body, .container
 
 .navbar-brand img
 {
-  max-width: 100px;
-  max-height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .navbar-custom .navbar-toggler
@@ -105,6 +105,12 @@ body, .container
   .tab-content
   {
     margin-top: 30px;
+  }
+
+  .navbar-brand img
+  {
+    width: 70px;
+    height: 70px;
   }
 }
 
