@@ -36,8 +36,8 @@ body, .container
 
 .navbar-brand img
 {
-  width: 100px;
-  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .navbar-custom .navbar-toggler
