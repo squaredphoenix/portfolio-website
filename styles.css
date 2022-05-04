@@ -89,7 +89,7 @@ body, .container
 .active .text
 {
   color: #F1B24A !important;
-  border: none;
+  border: none !important;
 }
 
 .jobTitle
