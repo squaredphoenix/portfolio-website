@@ -172,6 +172,11 @@ body, .container
     left: 0.5em;
     margin-right: -50%;
   }
+
+  #collapsibleNavbar .nav-link
+  {
+    text-align: center !important;
+  }
 }
 
 
