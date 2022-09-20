@@ -26,7 +26,7 @@ body, .container
   .title::after 
   {
     left: 0.5em;
-    margin-right: -50%;
+    margin-right: -30%;
   }
 
 .navbar
@@ -164,13 +164,13 @@ body, .container
   .title::before 
   {
     right: 0.5em;
-    margin-left: -50%;
+    margin-left: -30%;
   }
   
   .title::after 
   {
     left: 0.5em;
-    margin-right: -50%;
+    margin-right: -30%;
   }
 
   #collapsibleNavbar .nav-link
