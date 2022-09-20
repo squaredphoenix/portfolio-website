@@ -20,7 +20,7 @@ body, .container
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width: 50%;
+    width: 100%;
   }
   
   .title::after 
