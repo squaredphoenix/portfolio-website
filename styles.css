@@ -4,6 +4,11 @@ body, .container
   color: #FFFFFF;
 }
 
+.col-sm
+{
+  padding-right: 0px !important;
+}
+
 .title
 {
   font-size: 40px;
@@ -42,7 +47,7 @@ body, .container
 
 .navbar-brand img
 {
-  width: 100px;
+  width: auto;
   height: 100px;
 }
 
