@@ -188,11 +188,18 @@ body, .container
     column-gap: 20px;
   }
 
+  div.container.container
+  {
+    margin: 0px;
+    padding: 0px;
+  }
+
   .list1
   {
     columns: 3;
     -webkit-columns: 3;
     -moz-columns: 3;
+    background-color: black;
   }
 }
 
