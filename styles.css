@@ -2,11 +2,23 @@ body, .container
 {
   background-color: #164A41 !important;
   color: #FFFFFF;
+  margin: 0px;
 }
 
 .col-sm
 {
   padding-right: 0px !important;
+}
+
+.first
+{
+  margin-bottom: 0px;
+}
+
+.name
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .title
@@ -17,21 +29,21 @@ body, .container
   margin-top: 100px;
 }
 
-  .title::after
-  {
-    background-color: white;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 100%;
-  }
-  
-  .title::after 
-  {
-    left: 0.5em;
-    margin-right: -30%;
+.title::after
+{
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.title::after 
+{
+  left: 0.5em;
+  margin-right: -30%;
   }
 
 .navbar
@@ -204,7 +216,7 @@ body, .container
     columns: 3;
     -webkit-columns: 3;
     -moz-columns: 3;
-    background-color: black;
+    padding-left: 30px;
   }
 }
 
