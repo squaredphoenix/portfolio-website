@@ -4,15 +4,10 @@ body, .container
   color: #FFFFFF;
 }
 
-.first
-{
-  margin-bottom: 0px;
-}
-
 .name
 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .title
@@ -20,7 +15,7 @@ body, .container
   font-size: 40px;
   position: relative;
   overflow: hidden;
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .title::after
@@ -38,7 +33,7 @@ body, .container
 {
   left: 0.5em;
   margin-right: -30%;
-  }
+}
 
 .navbar
 {
@@ -113,35 +108,33 @@ body, .container
 {
   font-size: 22px;
   color: white !important;
-  margin: 0;
 }
 
 .jobDate
 {
   font-size: 13;
   color: white !important;
-  margin-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .jobList
 {
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .listtitle
 {
   font-size: 22px;
   color: white !important;
-  margin-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) 
 {
   body
   {
-    text-align: center !important;
-    margin-left: 10px !important;
-    margin-right: 10px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 
   ul
@@ -151,7 +144,7 @@ body, .container
 
   .tab-content
   {
-    margin-top: 30px;
+    padding-top: 30px;
   }
 
   .navbar-brand img
@@ -188,10 +181,7 @@ body, .container
     margin-right: -50%;
   }
 
-  #collapsibleNavbar .nav-link
-  {
-    text-align: center !important;
-  }
+  
 
   .list2  
   {
@@ -201,12 +191,6 @@ body, .container
     font-size: 16px;
     width: 100%;
     column-gap: 20px;
-  }
-
-  div.container.container
-  {
-    margin: 0px;
-    padding: 0px;
   }
 
   .list1
@@ -236,13 +220,6 @@ body, .container
     float: left;
   }
 
-  .tab-content
-  {
-    float: left;
-    width: 50%;
-    padding-left: 100px;
-  }
-
   .nav-tabs
   {
     border-bottom: none !important;
@@ -257,62 +234,61 @@ body, .container
 
 .wrapper 
 {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .box 
 {
-    background-color: #4D774E;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 150%;
+  background-color: #4D774E;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 150%;
 }
 
 .box-title a:hover
 {
-    color: #F1B24A;
-    text-decoration: none;
+  color: #F1B24A;
+  text-decoration: none;
 }
 
 .box-title a
 {
-    color: white;
+  color: white;
 }
 
 .folder
 {
-    height: 40px;
-    width: 40px;
-    margin-bottom: 20px;
-    stroke-width: 2;
-    fill: none; 
-    stroke: #F1B24A;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 20px;
+  stroke-width: 2;
+  fill: none; 
+  stroke: #F1B24A;
 }
 
 .program
 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .box-text
 {
-    margin: 20px;
+  margin: 20px;
 }
 
 .description
 {
-    word-wrap: break-word;
+  word-wrap: break-word;
 }
 
 footer
 {
-    margin-top: 100px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    clear: left;
-    text-align: center;
-    height: 100px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  clear: left;
+  text-align: center;
+  height: 100px;
 }
 
