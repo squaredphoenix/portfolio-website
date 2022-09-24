@@ -2,12 +2,6 @@ body, .container
 {
   background-color: #164A41 !important;
   color: #FFFFFF;
-  margin: 0px;
-}
-
-.col-sm
-{
-  padding-right: 0px !important;
 }
 
 .first
@@ -126,6 +120,7 @@ body, .container
 {
   font-size: 13;
   color: white !important;
+  margin-bottom: 10px;
 }
 
 .jobList
@@ -137,6 +132,7 @@ body, .container
 {
   font-size: 22px;
   color: white !important;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 768px) 
@@ -144,6 +140,8 @@ body, .container
   body
   {
     text-align: center !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
 
   ul
@@ -213,10 +211,9 @@ body, .container
 
   .list1
   {
-    columns: 3;
-    -webkit-columns: 3;
-    -moz-columns: 3;
-    padding-left: 30px;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
   }
 }
 
