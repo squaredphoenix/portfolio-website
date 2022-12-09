@@ -87,13 +87,6 @@ img
   -moz-columns: 2;
 }
 
-.Certifications
-{
-  columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 3;
-}
-
 .jobTitle
 {
   padding-top: 10px;
@@ -181,6 +174,13 @@ footer
     float: left;
     width: 68%;
   }
+
+  .Certifications
+  {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+  }
 }
 
 @media screen and (max-width: 799px) 
@@ -190,8 +190,20 @@ footer
     font-size: 16px !important;
   }
 
+  .Certifications
+  {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
   .classtext
   {
     font-size: 14px;
+  }
+
+  .tab .nav
+  {
+    flex-wrap: nowrap;
   }
 }
