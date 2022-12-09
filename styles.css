@@ -2,6 +2,7 @@ body
 {
   background-color: #164A41 !important;
   color: #FFFFFF !important;
+  font-size: 20px !important;
 }
 
 img
@@ -79,6 +80,13 @@ img
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+}
+
+.Certifications
+{
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
 }
 
 .jobTitle
@@ -172,6 +180,11 @@ footer
 
 @media screen and (max-width: 799px) 
 {
+  body
+  {
+    font-size: 16px !important;
+  }
+
   .classtext
   {
     font-size: 14px;
