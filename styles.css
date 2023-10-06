@@ -62,15 +62,6 @@ img {
   border: none !important;
 }
 
-.list1 {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
-  /* columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 3; */
-}
-
 .classList {
   columns: 2;
   -webkit-columns: 2;
@@ -156,6 +147,15 @@ footer {
     -webkit-columns: 3;
     -moz-columns: 3;
   }
+
+  .list1 {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+    /* columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3; */
+  }
 }
 
 @media screen and (max-width: 799px) {
@@ -176,5 +176,12 @@ footer {
 
   .tab .nav {
     flex-wrap: nowrap;
+  }
+
+  .list1 {
+    columns: 2 !important;
+    -webkit-columns: 2 !important;
+    -moz-columns: 2 !important;
+    column-gap: 10% !important;
   }
 }
