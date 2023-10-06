@@ -63,9 +63,12 @@ img {
 }
 
 .list1 {
-  columns: 3;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+  /* columns: 3;
   -webkit-columns: 3;
-  -moz-columns: 3;
+  -moz-columns: 3; */
 }
 
 .classList {
