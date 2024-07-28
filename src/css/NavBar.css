@@ -1,0 +1,40 @@
+.navbar-custom {
+    background-color: #164a41;
+    padding-left: 10px;
+    font-size: 30px;
+    text-align: center;
+    z-index: 1;
+}
+
+.navbar-custom .nav-link {
+    color: #ffffff;
+    margin-right: 1rem;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #66bb6a;
+}
+
+.navbar-custom .navbar-brand img {
+    height: 100px;
+    width: auto;
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: #66bb6a;
+    margin-right: 10px;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2866, 187, 106, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-custom {
+        font-size: 20px;
+    }
+}

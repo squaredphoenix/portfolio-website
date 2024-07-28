@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Daytona State College",
+        "degree": "Associate of Science – Computer Programming and Analysis (Software Engineering Technology)",
+        "courses": [
+            "A+ Computer Repair",
+            "Internet Web Foundations (Html, CSS)",
+            "Principles of Computer Programming (Python)",
+            "C# Computer Programming (C#)",
+            "Programming Java (Java)",
+            "Network Plus",
+            "Introduction to Database Mgmt. (MYSQL)",
+            "Cooperative Educational Experience",
+            "Professional Performance for Technicians",
+            "Web Programming (JavaScript, Ajax, jQuery)",
+            "Web Scripting (PHP)",
+            "Fundamentals of Cybersecurity Analysis",
+            "Programming for Mobile Devices: Android",
+            "Software Design and Development I",
+            "Web Design 1 (Adobe)"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Univerity of West Florida",
+        "degree": "Bachelor of Science – Software Design and Development",
+        "courses": [
+            "Algorithm and Program Design (C++)",
+            "Intermediate Programming (Java)",
+            "Data Structures and Algorithms I (C++)",
+            "Database Systems (SQL)",
+            "Discrete Structures",
+            "Introduction to Computer Organization (MIPS)",
+            "Software Engineering I (Java)",
+            "Network Fundamentals",
+            "Data Mining",
+            "Intro to AI",
+            "Secure Development",
+            "Server-Side Programming (JavaScript, Node.js)",
+            "Theory and Fundamentals of Operating Systems (C++)",
+            "Data Structures and Algorithms II (C++)",
+            "Linux System Administration",
+            "Server Administration",
+            "System & Network I (C++)",
+            "Capstone Project",
+            "Client-Side Programming (HTML, CSS, JavaScript, REACT)",
+            "Software Engineering II (Unity)"
+        ]
+    }
+]

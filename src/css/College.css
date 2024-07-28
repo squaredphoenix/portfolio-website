@@ -1,0 +1,38 @@
+#course {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#collegeCard {
+    margin-top: 10px;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 15px;
+}
+
+.card-text {
+    flex-grow: 1;
+    margin-bottom: 15px;
+}
+
+.modal-content>* {
+    background-color: #164a41;
+    color: white;
+    border: none;
+}
+
+.wider-modal {
+    max-width: 90%;
+}

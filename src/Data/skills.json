@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Android with Java",
+        "level": 60
+    },
+    {
+        "name": "C++",
+        "level": 70
+    },
+    {
+        "name": "C#",
+        "level": 70
+    },
+    {
+        "name": "Java",
+        "level": 70
+    },
+    {
+        "name": "JavaScript",
+        "level": 80
+    },
+    {
+        "name": "MIPS",
+        "level": 30
+    },
+    {
+        "name": "PHP",
+        "level": 40
+    },
+    {
+        "name": "Python",
+        "level": 70
+    },
+    {
+        "name": "Ajax",
+        "level": 60
+    },
+    {
+        "name": "ASP.NET",
+        "level": 65
+    },
+    {
+        "name": "HTML",
+        "level": 90
+    },
+    {
+        "name": "Bootstrap",
+        "level": 90
+    },
+    {
+        "name": "Express.js",
+        "level": 80
+    },
+    {
+        "name": "Handlebars",
+        "level": 90
+    },
+    {
+        "name": "Node.js",
+        "level": 80
+    },
+    {
+        "name": "REACT",
+        "level": 80
+    },
+    {
+        "name": "Microsoft SQL Server",
+        "level": 75
+    },
+    {
+        "name": "MongoDB",
+        "level": 75
+    },
+    {
+        "name": "MYSQL",
+        "level": 75
+    },
+    {
+        "name": "PostgreSQL",
+        "level": 75
+    },
+    {
+        "name": "DevOps",
+        "level": 80
+    },
+    {
+        "name": "Docker",
+        "level": 75
+    },
+    {
+        "name": "Eclipse",
+        "level": 70
+    },
+    {
+        "name": "GitHub",
+        "level": 80
+    },
+    {
+        "name": "Microsoft Web Server",
+        "level": 60
+    },
+    {
+        "name": "Unity",
+        "level": 65
+    },
+    {
+        "name": "Visual Studio",
+        "level": 75
+    },
+    {
+        "name": "Visual Studio Code",
+        "level": 75
+    },
+    {
+        "name": "Apple Products",
+        "level": 60
+    },
+    {
+        "name": "Linux",
+        "level": 70
+    },
+    {
+        "name": "Microsoft Probucts",
+        "level": 75
+    },
+    {
+        "name": "Amazon Web Services",
+        "level": 75
+    },
+    {
+        "name": "Firebase",
+        "level": 75
+    },
+    {
+        "name": "Microsoft Azure",
+        "level": 75
+    },
+    {
+        "name": "AI",
+        "level": 50
+    },
+    {
+        "name": "Google Products",
+        "level": 85
+    },
+    {
+        "name": "R",
+        "level": 65
+    },
+    {
+        "name": "CSS",
+        "level": 90
+    }
+]

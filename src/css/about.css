@@ -1,0 +1,33 @@
+#aboutMe {
+    color: #ffffff;
+    padding: 2rem 1rem;
+    padding-top: 0;
+    background-color: #0b2722;
+    border-radius: 20px;
+}
+
+#about {
+    margin: 2%;
+}
+
+#about p {
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
+
+#about * {
+    display: flex;
+}
+
+#about p {
+    border-radius: 20px;
+    padding: 20px;
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+#about p:hover {
+    background-size: 100% 100%;
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Portfolio Website",
+        "imageSrc": "https://placehold.co/1200x1000",
+        "alt": "Portfolio website Image",
+        "description": "This is my portfolio website",
+        "skills": 
+        [
+            "CSS",
+            "HTML",
+            "REACT"
+        ],
+        "source": "https://github.com/squaredphoenix/portfolio-website",
+        "post": "yes"
+    },
+    {
+        "title": "Feast Folio",
+        "imageSrc": "img/Feast-Folio.png",
+        "alt": "Feast Folio Image",
+        "description": "An application for people to easily locate restaurants in Pensacola FL and log their preferences, meals eaten, or other details.",
+        "skills": 
+        [
+            "CSS",
+            "HTML",
+            "REACT"
+        ],
+        "source": "https://github.com/uwf-cop4864-sp2024/project-bingus",
+        "post": "no"
+    },
+    {
+        "title": "First-Person RPG Framework",
+        "imageSrc": "img/RPG.png",
+        "alt": "RPG Framework Image",
+        "description": "This is a simple first-person RPG framework made in unity",
+        "skills": 
+        [
+            "C#",
+            "Unity"
+        ],
+        "source": "https://github.com/Group-5-Spring-CEN3032/Software-Engineering-Group-5",
+        "post": "yes"
+    },
+    {
+        "title": "Nature-Dex",
+        "imageSrc": "img/Nature-Dex.png",
+        "alt": "Nature-Dex Image",
+        "description": "Nature-Dex is a informational resoure that makes learning about plantes and animals fun.",
+        "skills": 
+        [
+            "ASP.NET",
+            "CSS",
+            "HTML",
+            "REACT"
+        ],
+        "source": "https://github.com/Scrunkly-Capstone/Capstone-project",
+        "post": "no"
+    },
+    {
+        "title": "Wildfire",
+        "imageSrc": "img/wildfire.png",
+        "alt": "Nature-Dex Image",
+        "description": "A C++ class that uses recursion to simulate a wildfire",
+        "skills": 
+        [
+            "C++"
+        ],
+        "source": "https://github.com/uwf-fang-teaching/checkpoint-22s-2-squaredphoenix",
+        "post": "no"
+    },
+    {
+        "title": "Longest Common Subsequence Algorithm",
+        "imageSrc": "https://placehold.co/1200x1000",
+        "alt": "Longest Common Subsequence Algorithm Image",
+        "description": "This project will implement the dynamic programming version of the LCS algorithm",
+        "skills": 
+        [
+            "C++"
+        ],
+        "source": "https://github.com/uwf-fang-teaching/project-4-squaredphoenix",
+        "post": "no"
+    }
+]

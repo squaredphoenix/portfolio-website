@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Technical Intern",
+    "organisation": "Flagler County Schools",
+    "startDate": "AUGUST 2020",
+    "endDate": "DECEMBER 2020",
+    "experiences": ["Assisted technology specialists throughout the county", "Tasks included setup, maintenance and repair of apple and windows products", "Other equipment printers, phones, and projectors", "Inventory management", "Network issues", "Helpdesk tickets"],
+    "imageSrc": "work/google.png"
+  },
+  {
+    "role": "IT Applications Intern",
+    "organisation": "City of Palm Coast",
+    "startDate": "JUNE 2023",
+    "endDate": "AUGUST 2023",
+    "experiences": ["Transforming legacy API services to a more modern cloud-first design", "Team discussions and problem-solving sessions", "Worked with Amazon Web Services using RDS (PostgreSQL), Lambda functions (C#), API Gateway, VPC, S3 Buckets, Fargate Instances, Route 53, Load Balancer, Endpoints, Security Groups, Regions, and Subnets"],
+    "imageSrc": "work/microsoft.png"
+  }
+]

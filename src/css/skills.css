@@ -1,0 +1,33 @@
+.skill-bars {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 620px;
+    overflow-y: auto;
+}
+
+.skill {
+    margin-bottom: 1rem;
+}
+
+.skill-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.skill-progress {
+    border-radius: 100px;
+}
+
+.skill-progress .progress-bar {
+    background-color: #66bb6a;
+    font-size: 20px;
+}
+
+.skill-progress .progress-bar {
+    color: #1a237e;
+}
+
+.progress {
+    height: 30px;
+}

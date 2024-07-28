@@ -1,0 +1,52 @@
+.top-div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+#intro {
+    height: 100%;
+    padding: 2rem 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#intro .display-6 {
+    color: #66bb6a;
+    margin-bottom: 1rem;
+}
+
+#intro .lead {
+    color: #b0bec5;
+}
+
+#intro p {
+    color: #b0bec5;
+}
+
+#intro .col-md-4,
+#intro .col-md-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#intro .btn {
+    background-color: #66bb6a;
+    border: none;
+    color: #121212;
+}
+
+#intro .btn:hover {
+    background-color: #65f86d;
+}
+
+#intro img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #66bb6a;
+}
