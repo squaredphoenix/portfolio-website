@@ -12,7 +12,7 @@ const Welcome = () => {
                 <Col md={8} className="my-auto animate__animated animate__fadeIn">
                     <h1 className="display-4">Welcome to My Software Engineer / Programmer Portfolio</h1>
                     <p className="lead">Crafting digital experiences with passion and precision.</p>
-                    <p>Scroll down to explore my projects, skills, and much more.</p>
+                    <p>Scroll down to explore my college, projects, skills and work experience.</p>
                     <Button href="#projects" className="btn">View Projects</Button>
                 </Col>
             </Row>
