@@ -1,8 +1,8 @@
 [
     {
         "title": "Portfolio Website",
-        "imageSrc": "https://placehold.co/1200x1000",
-        "alt": "Portfolio website Image",
+        "imageSrc": "img/Portfolio.png",
+        "alt": "Portfolio website logo",
         "description": "This is my portfolio website",
         "skills": 
         [
@@ -16,7 +16,7 @@
     {
         "title": "Feast Folio",
         "imageSrc": "img/Feast-Folio.png",
-        "alt": "Feast Folio Image",
+        "alt": "Feast Folio logo",
         "description": "An application for people to easily locate restaurants in Pensacola FL and log their preferences, meals eaten, or other details.",
         "skills": 
         [
@@ -30,7 +30,7 @@
     {
         "title": "First-Person RPG Framework",
         "imageSrc": "img/RPG.png",
-        "alt": "RPG Framework Image",
+        "alt": "RPG Framework logo",
         "description": "This is a simple first-person RPG framework made in unity",
         "skills": 
         [
@@ -43,7 +43,7 @@
     {
         "title": "Nature-Dex",
         "imageSrc": "img/Nature-Dex.png",
-        "alt": "Nature-Dex Image",
+        "alt": "Nature-Dex logo",
         "description": "Nature-Dex is a informational resoure that makes learning about plantes and animals fun.",
         "skills": 
         [
@@ -58,7 +58,7 @@
     {
         "title": "Wildfire",
         "imageSrc": "img/wildfire.png",
-        "alt": "Nature-Dex Image",
+        "alt": "Nature-Dex logo",
         "description": "A C++ class that uses recursion to simulate a wildfire",
         "skills": 
         [
@@ -69,14 +69,26 @@
     },
     {
         "title": "Longest Common Subsequence Algorithm",
-        "imageSrc": "https://placehold.co/1200x1000",
-        "alt": "Longest Common Subsequence Algorithm Image",
+        "imageSrc": "img/LCSA.png",
+        "alt": "Longest Common Subsequence Algorithm logo",
         "description": "This project will implement the dynamic programming version of the LCS algorithm",
         "skills": 
         [
             "C++"
         ],
-        "source": "https://github.com/uwf-fang-teaching/project-4-squaredphoenix",
-        "post": "no"
+        "source": "https://github.com/squaredphoenix/LCS-Algorithm.git",
+        "post": "yes"
+    },
+    {
+        "title": "Big Integer Arithmetic Algorithms",
+        "imageSrc": "img/BIAA.png",
+        "alt": "Big Integer Arithmetic Algorithms logo",
+        "description": "This project will implement the big integer arithmetic algorithms",
+        "skills": 
+        [
+            "C++"
+        ],
+        "source": "https://github.com/squaredphoenix/Big-Integer-Arithmetic-Algorithms.git",
+        "post": "yes"
     }
 ]

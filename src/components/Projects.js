@@ -5,7 +5,7 @@ import projects from "../Data/projects.json";
 
 const Projects = () => {
     return (
-        <Container fluid>
+        <Container fluid id="project">
             <Row className="justify-content-center">
                 <Col className="text-center">
                     <h2 className='col-12' id='title'>
@@ -22,14 +22,13 @@ const Projects = () => {
                                 <Image src={project.imageSrc} alt={project.alt} fluid className="rounded card-img" />
                             </Card.Header>
                             <Card.Body className="card-overlay">
-                                <Card.Title className="mb-2">{project.title}</Card.Title>
-                                <Card.Text className="mb-2">
+                                <Card.Title>{project.title}</Card.Title>
+                                <Card.Text>
                                     {project.description}
                                 </Card.Text>
-                                <Card.Text className="mb-1">
-                                    <strong>Programming Languages - </strong>
-                                </Card.Text>
                                 <Card.Text>
+                                    <strong>Programming Languages - </strong>
+                                
                                     {project.skills.map((skill, id) => (
                                         <span key={id}>
                                             {skill}

@@ -7,7 +7,7 @@ const Welcome = () => {
         <div className="top-div">
             <Row id="intro" className="text-light justify-content-center align-items-center text-center mb-5 animate__animated animate__fadeIn">
                 <Col md={4} className="py-4">
-                    <Image src="https://placehold.co/1200x800" alt="Profile Picture" roundedCircle fluid />
+                    <Image src="https://placehold.co/1200x800" alt="Picture of me" roundedCircle fluid />
                 </Col>
                 <Col md={8} className="my-auto animate__animated animate__fadeIn">
                     <h1 className="display-4">Welcome to My Software Engineer / Programmer Portfolio</h1>

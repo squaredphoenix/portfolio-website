@@ -9,10 +9,10 @@ const Work = () => {
             {work.map((workItem, id) => {
                 return (
                     <Row key={id} className="workItem mb-4">
-                        <Col md={2}>
+                        <Col lg={3} md={3}>
                             <img src={workItem.imageSrc} alt={`${workItem.organisation} Logo`} />
                         </Col>
-                        <Col className="workItemDetails" md={10}>
+                        <Col className="workItemDetails" lg={9} md={9}>
                             <Row>
                                 <Col>
                                     <h3>{`${workItem.role}, ${workItem.organisation}`}</h3>
@@ -29,7 +29,7 @@ const Work = () => {
                                         {workItem.experiences.map((experience, id) => {
                                             const isLastItem = id === workItem.experiences.length - 1;
                                             return (
-                                                <Col xs={6} className={isLastItem ? 'flex-grow-1' : ''} key={id}>
+                                                <Col lg={6} xs={12} className={isLastItem ? 'flex-grow-1' : ''} key={id}>
                                                     <li>
                                                         {experience}
                                                     </li>

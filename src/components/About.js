@@ -13,10 +13,10 @@ export default function About(props) {
                     </h2>
                 </Row>
                 <Row>
-                    <Col md={4}>
-                        <Image src="https://placehold.co/800x400" alt="Profile Picture" fluid />
+                    <Col md={3}>
+                        <Image src="desk.png" alt="Profile Picture" fluid />
                     </Col>
-                    <Col md={8}>
+                    <Col md={9}>
                         <p>
                             I recently graduated with a major and a minor. I hold a Bachelor of Science in Software Design & Development, as well as an Associate of Science in Computer Programming and Analysis (Software Engineering Technology). I am fascinated by all things related to programming and am eager to continue learning and expanding my knowledge in the world of technology.
                         </p>
