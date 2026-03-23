@@ -6,8 +6,7 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "eslint",
-        "deploy": "gh-pages -d out"
+        "lint": "eslint"
     },
     "dependencies": {
         "bootstrap": "^5.3.8",
@@ -27,7 +26,6 @@
         "babel-plugin-react-compiler": "1.0.0",
         "eslint": "^9",
         "eslint-config-next": "16.1.6",
-        "gh-pages": "^6.3.0",
         "typescript": "^5"
     }
 }
