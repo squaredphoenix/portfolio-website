@@ -1,94 +1,62 @@
 [
     {
+        "id": "Portfolio-Website",
         "title": "Portfolio Website",
-        "imageSrc": "img/Portfolio.png",
-        "alt": "Portfolio website logo",
-        "description": "This is my portfolio website",
-        "skills": 
-        [
-            "CSS",
-            "HTML",
-            "REACT"
-        ],
-        "source": "https://github.com/squaredphoenix/portfolio-website",
-        "post": "yes"
+        "description": "A high-performance Next.js portfolio with a futuristic aesthetic.",
+        "tags": ["Next.js", "TypeScript", "BootStrap", "Framer Motion"],
+        "githubUrl": "https://github.com/squaredphoenix/portfolio-website",
+        "githunAria": "test",
+        "image": "/projects/portfolio-hero.jpg",
+        "featured": true
     },
     {
+        "id": "Feast-Folio",
         "title": "Feast Folio",
-        "imageSrc": "img/Feast-Folio.png",
-        "alt": "Feast Folio logo",
         "description": "An application for people to easily locate restaurants in Pensacola FL and log their preferences, meals eaten, or other details.",
-        "skills": 
-        [
-            "CSS",
-            "HTML",
-            "REACT"
-        ],
-        "source": "https://github.com/uwf-cop4864-sp2024/project-bingus",
-        "post": "no"
+        "tags": ["CSS", "HTML", "REACT"],
+        "githubUrl": "https://github.com/uwf-cop4864-sp2024/project-bingus",
+        "githunAria": "test",
+        "image": "/projects/Feast-Folio.jpg",
+        "featured": true
     },
     {
+        "id": "First-Person-RPG",
         "title": "First-Person RPG Framework",
-        "imageSrc": "img/RPG.png",
-        "alt": "RPG Framework logo",
-        "description": "This is a simple first-person RPG framework made in unity",
-        "skills": 
-        [
-            "C#",
-            "Unity"
-        ],
-        "source": "https://github.com/Group-5-Spring-CEN3032/Software-Engineering-Group-5",
-        "post": "yes"
+        "description": "This is a simple first-person RPG framework made in unit",
+        "tags": ["C#", "Unity"],
+        "githubUrl": "https://github.com/Group-5-Spring-CEN3032/Software-Engineering-Group-5",
+        "githunAria": "test",
+        "image": "/projects/RPG.jpg",
+        "featured": true
     },
     {
-        "title": "Nature-Dex",
-        "imageSrc": "img/Nature-Dex.png",
-        "alt": "Nature-Dex logo",
-        "description": "Nature-Dex is a informational resoure that makes learning about plantes and animals fun.",
-        "skills": 
-        [
-            "ASP.NET",
-            "CSS",
-            "HTML",
-            "REACT"
-        ],
-        "source": "https://github.com/Scrunkly-Capstone/Capstone-project",
-        "post": "no"
-    },
-    {
+        "id": "Wildfire",
         "title": "Wildfire",
-        "imageSrc": "img/wildfire.png",
-        "alt": "Nature-Dex logo",
         "description": "A C++ class that uses recursion to simulate a wildfire",
-        "skills": 
-        [
-            "C++"
-        ],
-        "source": "https://github.com/uwf-fang-teaching/checkpoint-22s-2-squaredphoenix",
-        "post": "no"
+        "tags": ["C++"],
+        "githubUrl": "https://github.com/squaredphoenix/WildFire",
+        "githunAria": "test",
+        "image": "/projects/wildfire.png",
+        "featured": true
     },
     {
+        "id": "LCSA",
         "title": "Longest Common Subsequence Algorithm",
-        "imageSrc": "img/LCSA.png",
-        "alt": "Longest Common Subsequence Algorithm logo",
-        "description": "This project will implement the dynamic programming version of the LCS algorithm",
-        "skills": 
-        [
-            "C++"
-        ],
-        "source": "https://github.com/squaredphoenix/LCS-Algorithm.git",
-        "post": "yes"
+        "description": "Implementation of the dynamic programming version of the LCS algorithm",
+        "tags": ["C++"],
+        "githubUrl": "https://github.com/squaredphoenix/LCS-Algorithm.git",
+        "githunAria": "test",
+        "image": "/projects/LCSA.jpg",
+        "featured": true
     },
     {
+        "id": "BIAA",
         "title": "Big Integer Arithmetic Algorithms",
-        "imageSrc": "img/BIAA.png",
-        "alt": "Big Integer Arithmetic Algorithms logo",
-        "description": "This project will implement the big integer arithmetic algorithms",
-        "skills": 
-        [
-            "C++"
-        ],
-        "source": "https://github.com/squaredphoenix/Big-Integer-Arithmetic-Algorithms.git",
-        "post": "yes"
+        "description": "Implementation of big integer arithmetic algorithms",
+        "tags": ["C++"],
+        "githubUrl": "https://github.com/squaredphoenix/Big-Integer-Arithmetic-Algorithms.git",
+        "githunAria": "test",
+        "image": "/projects/BIAA.jpg",
+        "featured": true
     }
 ]

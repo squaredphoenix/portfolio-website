@@ -1,0 +1,67 @@
+:root {
+    --bg-dark: #050505;
+    --bg-surface: #0d0d0f;
+    --primary: #00f3ff;
+    --primary-glow: rgba(0, 243, 255, 0.3);
+    --secondary: #7000ff;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --border: rgba(255, 255, 255, 0.1);
+
+    --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+
+/* globals.css */
+html,
+body {
+    max-width: 100vw;
+    width: 100%; /* Ensure width is explicit */
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: dark;
+    }
+}
+
+.navbar-dark .navbar-nav > * {
+    color: var(--text-main) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--text-muted) !important;
+}
+
+svg {
+    color: var(--text-main);
+}
+
+svg:hover {
+    color: var(--text-muted);
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "company": "Goldielocksnyc Beauty LLC",
+        "role": "Freelance Designer (Contract)",
+        "location": "Remote",
+        "period": "JAN 2026 – JAN 2026",
+        "description": ["Designed user-facing handouts using Canva and Microsoft Word, ensuring a professional and consistent visual layout.", "Structured information into easy-to-read formats, prioritizing a clear information layout for the end-user.", "Applied UI/UX design principles to optimize the printed materials."],
+        "skills": ["Canva", "Microsoft Word"]
+    },
+    {
+        "company": "City of Palm Coast",
+        "role": "IT Application Intern",
+        "location": "Palm Coast, FL",
+        "period": "JUN 2023 - AUG 2023",
+        "description": ["Modernized legacy API services with a cloud-first architecture using AWS (RDS, Lambda in C#, API Gateway, Fargate, S3, VPC, Route 53, Load Balancer, etc.)", "Participated in team discussions and technical problem-solving sessions."],
+        "skills": ["AWS", "Doker", "ASP.NET"]
+    },
+    {
+        "company": "Flagler County Schools",
+        "role": "Technical Intern",
+        "location": "Flagler County, FL",
+        "period": "AUG 2020 - DEC 2020",
+        "description": ["Resolved help desk tickets and maintained Apple and Windows devices.", "Diagnosed and resolved issues with network printers, phones, and projectors", "Managed inventory tracking of MacBooks and iPads assigned to students."],
+        "skills": []
+    }
+]

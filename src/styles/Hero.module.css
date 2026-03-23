@@ -1,0 +1,172 @@
+.heroWrapper {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Badge */
+.mainBadge {
+	display: inline-flex;
+	align-items: center;
+	padding: 6px 16px;
+	border: 2px solid rgba(0, 243, 255, 0.2);
+	border-radius: 50px;
+	gap: 8px;
+	color: var(--primary);
+	font-size: 12px;
+	margin-bottom: 24px;
+}
+
+.statusDot {
+	width: 8px;
+	height: 8px;
+	background: var(--primary);
+	border-radius: 50%;
+	box-shadow: 0 0 10px var(--primary);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* Title */
+.mainTitle {
+	font-weight: bold !important;
+	line-height: 1.1;
+}
+
+/* Gradient */
+.gradientText {
+	background: linear-gradient(90deg, var(--primary), var(--secondary));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* Subtitle */
+.subtitle {
+	color: var(--text-muted);
+	font-size: 20px;
+	width: 55%;
+}
+
+.subtitle strong {
+	color: var(--text-main);
+}
+
+/* Buttons */
+.btnPrimary {
+	background-color: var(--primary) !important;
+	border: 1px solid var(--primary-glow) !important;
+	padding: 16px 32px !important;
+	color: black !important;
+	border-radius: 20px !important;
+	font-weight: bold !important;
+}
+
+.btnPrimary:hover {
+	box-shadow: 0 0 20px rgba(0, 243, 255, 0.4);
+	transform: translateY(-2px);
+}
+
+.btnSecondary {
+	border-radius: 20px !important;
+	font-weight: bold !important;
+	color: black !important;
+}
+
+.btnSecondary:hover {
+	transform: translateY(-2px);
+}
+
+/* Tech */
+.techTitle {
+	color: var(--text-muted);
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+
+.techBadge {
+	color: var(--text-muted);
+	border: 1px solid var(--text-muted);
+	border-radius: 50px;
+	padding: 6px 16px;
+	font-size: 14px;
+	transition: all 0.2s ease;
+}
+
+.techBadge:hover {
+	color: var(--primary);
+	border-color: var(--primary);
+}
+
+/* ---------------------- */
+/* 📱 MOBILE IMPROVEMENTS */
+/* ---------------------- */
+
+@media (max-width: 768px) {
+	.heroWrapper {
+		align-items: flex-start; /* better flow on mobile */
+		padding-top: 40px;
+	}
+
+	.mainTitle {
+		font-size: 2.2rem !important; /* prevent huge text */
+	}
+
+	.subtitle {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	/* Buttons stack nicely */
+	.btnPrimary,
+	.btnSecondary {
+		width: 47%;
+		text-align: center;
+		padding: 14px !important;
+	}
+
+	/* Reduce gaps slightly */
+	.techBadge {
+		font-size: 13px;
+		padding: 6px 12px;
+		justify-content: center;
+	}
+
+	.techTitle {
+		margin-bottom: 12px;
+	}
+}
+
+/* 📱 Extra small phones */
+@media (max-width: 480px) {
+	.mainTitle {
+		font-size: 2.5rem !important;
+	}
+
+	.mainBadge {
+		font-size: 10px;
+		padding: 4px 12px;
+	}
+
+	.subtitle {
+		font-size: 15px;
+	}
+
+	.techBadge {
+		font-size: 12px;
+		padding: 5px 10px;
+	}
+}
