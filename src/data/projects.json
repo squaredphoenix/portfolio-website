@@ -12,41 +12,49 @@
   {
     "id": "First-Person-RPG",
     "title": "First-Person RPG Framework",
-    "description": "This is a simple first-person RPG framework made in unit",
+    "description": "A class project focused on building a simple first-person RPG framework in Unity.",
     "tags": ["C#", "Unity"],
     "githubUrl": "https://github.com/Group-5-Spring-CEN3032/Software-Engineering-Group-5",
     "githunAria": "test",
     "image": "/projects/RPG.jpg",
-    "featured": true
+    "featured": true,
+    "projectType": "academic",
+    "contextLabel": "Class Project - GROUP"
   },
   {
     "id": "Wildfire",
     "title": "Wildfire",
-    "description": "A C++ class that uses recursion to simulate a wildfire",
+    "description": "A coursework project using recursion to simulate a wildfire spread model.",
     "tags": ["C++"],
     "githubUrl": "https://github.com/squaredphoenix/WildFire",
     "githunAria": "test",
     "image": "/projects/wildfire.png",
-    "featured": true
+    "featured": true,
+    "projectType": "academic",
+    "contextLabel": "Class Project - SOLO"
   },
   {
     "id": "LCSA",
     "title": "Longest Common Subsequence Algorithm",
-    "description": "Implementation of the dynamic programming version of the LCS algorithm",
+    "description": "A university coursework implementation of the dynamic programming version of the LCS algorithm.",
     "tags": ["C++"],
     "githubUrl": "https://github.com/squaredphoenix/LCS-Algorithm.git",
     "githunAria": "test",
     "image": "/projects/LCSA.jpg",
-    "featured": true
+    "featured": true,
+    "projectType": "academic",
+    "contextLabel": "Class Project - SOLO"
   },
   {
     "id": "BIAA",
     "title": "Big Integer Arithmetic Algorithms",
-    "description": "Implementation of big integer arithmetic algorithms",
+    "description": "A class project focused on implementing big integer arithmetic algorithms.",
     "tags": ["C++"],
     "githubUrl": "https://github.com/squaredphoenix/Big-Integer-Arithmetic-Algorithms.git",
     "githunAria": "test",
     "image": "/projects/BIAA.jpg",
-    "featured": true
+    "featured": true,
+    "projectType": "academic",
+    "contextLabel": "Class Project - SOLO"
   }
 ]

@@ -11,6 +11,49 @@ interface ProjectsProps {
 }
 
 export default function Projects({ projects }: ProjectsProps) {
+  const featuredProjects = projects.filter((project) => project.projectType !== "academic");
+  const academicProjects = projects.filter((project) => project.projectType === "academic");
+
+  const renderProjectCards = (projectList: Project[], startDelay = 0) =>
+    projectList.map((project, index) => (
+      <Col key={project.id} lg={4} md={6} xs={12}>
+        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: (startDelay + index) * 0.1 }} whileHover={{ y: -10 }} className="h-100">
+          <Card className={`${styles.projectCard} h-100`}>
+            <Card.Body className="d-flex flex-column">
+              <div className="d-flex justify-content-between align-items-start mb-3">
+                <div>
+                  {project.projectType === "academic" && <div className={styles.projectBadge}>{project.contextLabel ?? "Academic Project"}</div>}
+                  <Card.Title className={styles.projectTitle}>{project.title}</Card.Title>
+                </div>
+                <div className={styles.links}>
+                  {project.githubUrl && (
+                    <a href={project.githubUrl} target="_blank" rel="noreferrer" className="me-2" aria-label={`${project.githunAria}`}>
+                      <Github size={20} />
+                    </a>
+                  )}
+                  {project.demoUrl && (
+                    <a href={project.demoUrl} target="_blank" rel="noreferrer">
+                      <ExternalLink size={20} />
+                    </a>
+                  )}
+                </div>
+              </div>
+
+              <Card.Text className={styles.description}>{project.description}</Card.Text>
+
+              <div className="mt-auto pt-3 d-flex flex-wrap gap-2">
+                {project.tags.map((tag) => (
+                  <span key={tag} className={styles.tag}>
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </Card.Body>
+          </Card>
+        </motion.div>
+      </Col>
+    ));
+
   return (
     <section className="py-5 w-100">
       <Container>
@@ -18,43 +61,25 @@ export default function Projects({ projects }: ProjectsProps) {
           <span className="text-success font-mono">01. </span> Projects
         </motion.h2>
 
-        <Row className="mt-4 g-4">
-          {projects.map((project, index) => (
-            <Col key={project.id} lg={4} md={6} xs={12}>
-              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: index * 0.1 }} whileHover={{ y: -10 }} className="h-100">
-                <Card className={`${styles.projectCard} h-100`}>
-                  <Card.Body className="d-flex flex-column">
-                    <div className="d-flex justify-content-between align-items-start mb-3">
-                      <Card.Title className={styles.projectTitle}>{project.title}</Card.Title>
-                      <div className={styles.links}>
-                        {project.githubUrl && (
-                          <a href={project.githubUrl} target="_blank" rel="noreferrer" className="me-2" aria-label={`${project.githunAria}`}>
-                            <Github size={20} />
-                          </a>
-                        )}
-                        {project.demoUrl && (
-                          <a href={project.demoUrl} target="_blank" rel="noreferrer">
-                            <ExternalLink size={20} />
-                          </a>
-                        )}
-                      </div>
-                    </div>
+        {featuredProjects.length > 0 && (
+          <>
+            <motion.h3 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} className={`mt-4 ${styles.sectionSubtitle}`}>
+              Personal Projects
+            </motion.h3>
+            <p className={`mt-2 ${styles.sectionDescription}`}>Projects I built to strengthen my skills, explore new ideas, and create polished experiences.</p>
+            <Row className="mt-3 g-4">{renderProjectCards(featuredProjects)}</Row>
+          </>
+        )}
 
-                    <Card.Text className={styles.description}>{project.description}</Card.Text>
-
-                    <div className="mt-auto pt-3 d-flex flex-wrap gap-2">
-                      {project.tags.map((tag) => (
-                        <span key={tag} className={styles.tag}>
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  </Card.Body>
-                </Card>
-              </motion.div>
-            </Col>
-          ))}
-        </Row>
+        {academicProjects.length > 0 && (
+          <>
+            <motion.h3 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} className={`mt-5 ${styles.sectionSubtitle}`}>
+              Academic Projects
+            </motion.h3>
+            <p className={`mt-2 ${styles.sectionDescription}`}>Coursework and university projects that helped me build core software development skills.</p>
+            <Row className="mt-3 g-4">{renderProjectCards(academicProjects, featuredProjects.length)}</Row>
+          </>
+        )}
       </Container>
     </section>
   );
