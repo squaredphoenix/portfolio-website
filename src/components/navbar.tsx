@@ -24,10 +24,10 @@ function NavBar() {
                 <div className="d-none d-lg-block">|</div>
 
                 <div className="d-flex align-items-center gap-3 mt-2 mt-lg-0">
-                  <a href="https://github.com" className="text-secondary hover-primary" aria-label="Visit my GitHub profile">
+                  <a href="https://github.com/squaredphoenix" className="text-secondary hover-primary" aria-label="Visit my GitHub profile">
                     <Github size={20} aria-hidden="true" />
                   </a>
-                  <a href="https://linkedin.com" className="text-secondary hover-primary" aria-label="Visit my LinkedIn profile">
+                  <a href="https://www.linkedin.com/in/nicholas-eriser-043569202/" className="text-secondary hover-primary" aria-label="Visit my LinkedIn profile">
                     <Linkedin size={20} aria-hidden="true" />
                   </a>
                 </div>
