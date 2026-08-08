@@ -1,62 +1,52 @@
 [
-    {
-        "id": "Portfolio-Website",
-        "title": "Portfolio Website",
-        "description": "A high-performance Next.js portfolio with a futuristic aesthetic.",
-        "tags": ["Next.js", "TypeScript", "BootStrap", "Framer Motion"],
-        "githubUrl": "https://github.com/squaredphoenix/portfolio-website",
-        "githunAria": "test",
-        "image": "/projects/portfolio-hero.jpg",
-        "featured": true
-    },
-    {
-        "id": "Feast-Folio",
-        "title": "Feast Folio",
-        "description": "An application for people to easily locate restaurants in Pensacola FL and log their preferences, meals eaten, or other details.",
-        "tags": ["CSS", "HTML", "REACT"],
-        "githubUrl": "https://github.com/uwf-cop4864-sp2024/project-bingus",
-        "githunAria": "test",
-        "image": "/projects/Feast-Folio.jpg",
-        "featured": true
-    },
-    {
-        "id": "First-Person-RPG",
-        "title": "First-Person RPG Framework",
-        "description": "This is a simple first-person RPG framework made in unit",
-        "tags": ["C#", "Unity"],
-        "githubUrl": "https://github.com/Group-5-Spring-CEN3032/Software-Engineering-Group-5",
-        "githunAria": "test",
-        "image": "/projects/RPG.jpg",
-        "featured": true
-    },
-    {
-        "id": "Wildfire",
-        "title": "Wildfire",
-        "description": "A C++ class that uses recursion to simulate a wildfire",
-        "tags": ["C++"],
-        "githubUrl": "https://github.com/squaredphoenix/WildFire",
-        "githunAria": "test",
-        "image": "/projects/wildfire.png",
-        "featured": true
-    },
-    {
-        "id": "LCSA",
-        "title": "Longest Common Subsequence Algorithm",
-        "description": "Implementation of the dynamic programming version of the LCS algorithm",
-        "tags": ["C++"],
-        "githubUrl": "https://github.com/squaredphoenix/LCS-Algorithm.git",
-        "githunAria": "test",
-        "image": "/projects/LCSA.jpg",
-        "featured": true
-    },
-    {
-        "id": "BIAA",
-        "title": "Big Integer Arithmetic Algorithms",
-        "description": "Implementation of big integer arithmetic algorithms",
-        "tags": ["C++"],
-        "githubUrl": "https://github.com/squaredphoenix/Big-Integer-Arithmetic-Algorithms.git",
-        "githunAria": "test",
-        "image": "/projects/BIAA.jpg",
-        "featured": true
-    }
+  {
+    "id": "Portfolio-Website",
+    "title": "Portfolio Website",
+    "description": "A high-performance Next.js portfolio with a futuristic aesthetic.",
+    "tags": ["Next.js", "TypeScript", "BootStrap", "Framer Motion"],
+    "githubUrl": "https://github.com/squaredphoenix/portfolio-website",
+    "githunAria": "test",
+    "image": "/projects/portfolio-hero.jpg",
+    "featured": true
+  },
+  {
+    "id": "First-Person-RPG",
+    "title": "First-Person RPG Framework",
+    "description": "This is a simple first-person RPG framework made in unit",
+    "tags": ["C#", "Unity"],
+    "githubUrl": "https://github.com/Group-5-Spring-CEN3032/Software-Engineering-Group-5",
+    "githunAria": "test",
+    "image": "/projects/RPG.jpg",
+    "featured": true
+  },
+  {
+    "id": "Wildfire",
+    "title": "Wildfire",
+    "description": "A C++ class that uses recursion to simulate a wildfire",
+    "tags": ["C++"],
+    "githubUrl": "https://github.com/squaredphoenix/WildFire",
+    "githunAria": "test",
+    "image": "/projects/wildfire.png",
+    "featured": true
+  },
+  {
+    "id": "LCSA",
+    "title": "Longest Common Subsequence Algorithm",
+    "description": "Implementation of the dynamic programming version of the LCS algorithm",
+    "tags": ["C++"],
+    "githubUrl": "https://github.com/squaredphoenix/LCS-Algorithm.git",
+    "githunAria": "test",
+    "image": "/projects/LCSA.jpg",
+    "featured": true
+  },
+  {
+    "id": "BIAA",
+    "title": "Big Integer Arithmetic Algorithms",
+    "description": "Implementation of big integer arithmetic algorithms",
+    "tags": ["C++"],
+    "githubUrl": "https://github.com/squaredphoenix/Big-Integer-Arithmetic-Algorithms.git",
+    "githunAria": "test",
+    "image": "/projects/BIAA.jpg",
+    "featured": true
+  }
 ]
