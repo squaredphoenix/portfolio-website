@@ -1,8 +1,9 @@
 import { z } from "zod";
-import { ProjectSchema, ExperienceSchema, type Project, type Experience } from "@/types";
+import { ProjectSchema, ExperienceSchema, EducationSchema, type Project, type Experience, type Education } from "@/types";
 
 import projectsData from "@/data/projects.json";
 import experienceData from "@/data/experience.json";
+import educationData from "@/data/education.json";
 
 export async function getProjects(): Promise<Project[]> {
     // No more fs.readFile or path.join needed
@@ -11,4 +12,8 @@ export async function getProjects(): Promise<Project[]> {
 
 export async function getExperience(): Promise<Experience[]> {
     return z.array(ExperienceSchema).parse(experienceData);
+}
+
+export async function getEducation(): Promise<Education[]> {
+    return z.array(EducationSchema).parse(educationData);
 }

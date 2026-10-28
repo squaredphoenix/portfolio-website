@@ -1,0 +1,168 @@
+.title {
+    display: flex;
+    align-items: center;
+    font-size: clamp(24px, 5vw, 32px);
+    white-space: nowrap;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.title::after {
+    content: "";
+    flex: 1;
+    margin-left: 20px;
+    height: 1px;
+    background: rgba(100, 255, 218, 0.1);
+}
+
+/* ── Card shell ── */
+.card {
+    background: var(--bg-surface, #0d0d0f);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    border-color: var(--primary);
+    box-shadow: 0 0 24px rgba(25, 135, 84, 0.12);
+}
+
+/* ── Clickable header ── */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4rem 1.6rem;
+    cursor: pointer;
+    user-select: none;
+    gap: 1rem;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.iconWrap {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background: rgba(25, 135, 84, 0.12);
+    border: 1px solid rgba(25, 135, 84, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 1.3rem;
+}
+
+.institution {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #e6f1ff;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.degree {
+    font-family: "SF Mono", "JetBrains Mono", monospace;
+    font-size: 0.8rem;
+    color: var(--primary);
+    margin: 0;
+    margin-top: 2px;
+}
+
+.chevron {
+    color: var(--primary);
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.chevronOpen {
+    transform: rotate(180deg);
+}
+
+/* ── Divider between header and body ── */
+.divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.06);
+    margin: 0 1.6rem;
+}
+
+/* ── Expanded body ── */
+.body {
+    padding: 1.4rem 1.6rem 1.6rem;
+    overflow: hidden;
+}
+
+/* Meta row: period, location, GPA */
+.metaRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 1.25rem;
+}
+
+.metaBadge {
+    font-family: "SF Mono", "JetBrains Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--primary) !important;
+    background: transparent !important;
+    border: 1px solid var(--primary) !important;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+/* Highlights list */
+.highlightsLabel,
+.coursesLabel {
+    font-family: "SF Mono", "JetBrains Mono", monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted, #94a3b8);
+    margin-bottom: 0.6rem;
+}
+
+.highlights {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.25rem;
+}
+
+.highlights li {
+    color: #8892b0;
+    font-size: 0.9rem;
+    padding: 0.3rem 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.arrow {
+    color: var(--primary);
+    font-size: 11px;
+    margin-top: 3px;
+    flex-shrink: 0;
+}
+
+/* Courses pill grid */
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.coursePill {
+    font-family: "SF Mono", "JetBrains Mono", monospace;
+    font-size: 0.75rem;
+    color: var(--primary);
+    background: rgba(25, 135, 84, 0.1);
+    border: 1px solid rgba(25, 135, 84, 0.25);
+    padding: 4px 10px;
+    border-radius: 20px;
+}

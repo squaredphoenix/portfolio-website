@@ -26,5 +26,18 @@ export const ExperienceSchema = z.object({
   skills: z.array(z.string()),
 });
 
+// Education Schema
+export const EducationSchema = z.object({
+  institution: z.string(),
+  degree: z.string(),
+  field: z.string(),
+  period: z.string(),
+  gpa: z.string().optional(),
+  location: z.string(),
+  highlights: z.array(z.string()),
+  courses: z.array(z.string()).optional(),
+});
+
 export type Project = z.infer<typeof ProjectSchema>;
 export type Experience = z.infer<typeof ExperienceSchema>;
+export type Education = z.infer<typeof EducationSchema>;

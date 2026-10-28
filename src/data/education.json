@@ -1,0 +1,40 @@
+[
+  {
+    "institution": "University of West Florida",
+    "degree": "Bachelor of Science",
+    "field": "Software Design and Development",
+    "period": "AUG 2021 – MAY 2024",
+    "gpa": "3.3",
+    "location": "Pensacola, FL",
+    "highlights": [],
+    "courses": [
+      "Algorithms & Program Design",
+      "Capstone Project",
+      "Client-Side Programming",
+      "Data Mining",
+      "Data Structures I & II",
+      "Database Systems",
+      "Intro to AI",
+      "Software Engineering I & II",
+      "Server-Side Programming",
+      "Introduction to Computer Organization",
+      "Server Administration",
+      "Network Fundamentals",
+      "Intermediate Computer Programming",
+      "Discrete Structures",
+      "Linux System Administration"
+    ]
+  },
+  {
+    "institution": "Daytona State College",
+    "degree": "Bachelor of Science",
+    "field": "Computer Programming & Analysis",
+    "period": "AUG 2019 – MAY 2021",
+    "gpa": "3.9",
+    "location": "Daytona Beach, FL",
+    "highlights": [],
+    "courses": [
+      "Internet Web Foundations", "C# Programming", "Computer Programming Java", "Database Management", "Software Design and Development I", "Web Programming", "Fundamentals of Cybersecurity", "Programming for Mobile Devices: Android", "Web Scripting", "Web Design I", "Principles of Computer Programming"
+    ]
+  }
+]
